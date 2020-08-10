@@ -82,6 +82,11 @@ let track_list = [
     artist: "Anne Marie",
     path: "tracks/Anne Marie-To Be Young.mp3",
   },
+  {
+    name: "Kings & Queens",
+    artist: "Ava Max",
+    path: "tracks/Ava Max-Kings & Queens.mp3"
+  }
 ];
 
 function random_bg_color() {
