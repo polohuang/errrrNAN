@@ -86,10 +86,85 @@ let track_list = [
     name: "Kings & Queens",
     artist: "Ava Max",
     path: "tracks/Ava Max-Kings & Queens.mp3"
+  },
+  {
+    name: "Solo",
+    artist: "Clean Bandit",
+    path: "tracks/Clean Bandit-Solo.mp3"
+  },
+  {
+    name: "Rockabye",
+    artist: "Clean Bandit",
+    path: "tracks/Clean Bandit-Rockabye.mp3"
+  },
+  {
+    name: "fxxk, i'm lonely",
+    artist: "Lauv",
+    path: "tracks/Lauv-fxxk, i'm lonely.mp3"
+  },
+  {
+    name: "FRIENDS",
+    artist: "Marshmello & Anne-Marie",
+    path: "tracks/Marshmello & Anne-Marie-FRIENDS.mp3"
+  },
+  {
+    name: "Rewrite The Stars",
+    artist: "Anne-Marie & James Arthur",
+    path: "tracks/Anne-Marie & James Arthur-Rewrite The Stars.mp3"
+  },
+  {
+    name: "BIRTHDAY",
+    artist: "Anne-Marie",
+    path: "tracks/Anne-Marie-BIRTHDAY.mp3"
+  },
+  {
+    name: "2002",
+    artist: "Anne-Marie",
+    path: "tracks/Anne-Marie-2002.mp3"
+  },
+  {
+    name: "Ciao Adios",
+    artist: "Anne-Marie",
+    path: "tracks/Anne-Marie-Ciao Adios.mp3"
+  },
+  {
+    name: "Girlfriend",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-Girlfriend.mp3"
+  },
+  {
+    name: "Attention",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-Attention.mp3"
+  },
+  {
+    name: "We Don't Talk Anymore",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-We Don't Talk Anymore.mp3"
+  },
+  {
+    name: "One Call Away",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-One Call Away.mp3"
+  },
+  {
+    name: "How Long",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-How Long.mp3"
+  },
+  {
+    name: "The Way I Am",
+    artist: "Charlie Puth",
+    path: "tracks/Charlie Puth-The Way I Am.mp3"
+  },
+  {
+    name: "Señorita",
+    artist: "Shawn Mendes, Camila Cabello",
+    path: "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
   }
 ];
 
-function random_bg_color() {
+function randomBgColor() {
 
   // Get a number between 64 to 256 (for getting lighter colors)
   let red = Math.floor(Math.random() * 256) + 64;
@@ -101,6 +176,10 @@ function random_bg_color() {
 
   // Set the background to that color
   document.body.style.background = bgColor;
+}
+
+function randomTrackIdx() {
+
 }
 
 function loadTrack(track_index) {
@@ -116,7 +195,7 @@ function loadTrack(track_index) {
 
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
-  random_bg_color();
+  randomBgColor();
 }
 
 function resetValues() {
@@ -125,6 +204,8 @@ function resetValues() {
   seek_slider.value = 0;
 }
 
+// Shuffle track list
+track_list.sort(() => Math.random() - 0.5);
 // Load the first track in the tracklist
 loadTrack(track_index);
 
