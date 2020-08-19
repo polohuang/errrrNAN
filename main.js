@@ -161,6 +161,36 @@ let track_list = [
     name: "Señorita",
     artist: "Shawn Mendes, Camila Cabello",
     path: "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
+  },
+  {
+    name: "South of the Border",
+    artist: "Ed Sheeran",
+    path: "tracks/Ed Sheeran-South of the Border.mp3"
+  },
+  {
+    name: "South of the Border",
+    artist: "Ed Sheeran",
+    path: "tracks/Ed Sheeran-South of the Border.mp3"
+  },
+  {
+    name: "Ed Sheeran-PerfectPerfect",
+    artist: "Ed Sheeran",
+    path: "tracks/Ed Sheeran-Perfect.mp3"
+  },
+  {
+    name: "I Don't Care",
+    artist: "Ed Sheeran & Justin Bieber",
+    path: "tracks/Ed Sheeran & Justin Bieber-I Don't Care.mp3"
+  },
+  {
+    name: "Señorita",
+    artist: "Shawn Mendes, Camila Cabello",
+    path: "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
+  },
+  {
+    name: "Memories",
+    artist: "Maroon 5",
+    path: "tracks/Maroon 5-Memories.mp3"
   }
 ];
 
