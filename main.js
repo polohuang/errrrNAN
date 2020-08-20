@@ -173,7 +173,7 @@ let track_list = [
     path: "tracks/Ed Sheeran-South of the Border.mp3"
   },
   {
-    name: "Ed Sheeran-PerfectPerfect",
+    name: "Perfect",
     artist: "Ed Sheeran",
     path: "tracks/Ed Sheeran-Perfect.mp3"
   },
