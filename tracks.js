@@ -184,5 +184,30 @@ var track_list = [
     name: "Funny",
     artist: "Zedd & Jasmine Thompson",
     path: "tracks/Zedd & Jasmine Thompson-Funny.mp3"
+  },
+  {
+    name: "Tick Tock",
+    artist: "Clean Bandit and Mabel",
+    path: "tracks/Clean Bandit and Mabel-Tick Tock.mp3"
+  },
+  {
+    name: "Nobody's Love",
+    artist: "Maroon 5",
+    path: "tracks/Maroon 5-Nobody's Love.mp3"
+  },
+  {
+    name: "Stitches",
+    artist: "Shawn Mendes & Hailee Steinfeld",
+    path: "tracks/Shawn Mendes & Hailee Steinfeld-Stitches.mp3"
+  },
+  {
+    name: "There's Nothing Holding Me Back",
+    artist: "Shawn Mendes",
+    path: "tracks/Shawn Mendes-There's Nothing Holding Me Back.mp3"
+  },
+  {
+    name: "Smile",
+    artist: "Katy Perry",
+    path: "tracks/Katy Perry-Smile.mp3"
   }
 ];
