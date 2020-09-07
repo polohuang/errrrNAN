@@ -19,24 +19,23 @@
       <div class="track-artist">Track Artist</div>
     </div>
     <div class="buttons">
-      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
-      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
-      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+      <div class="prev-track"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-track"><i class="fa fa-step-forward fa-2x"></i></div>
     </div>
     <div class="slider_container">
       <div class="current-time">00:00</div>
-      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <input type="range" min="1" max="100" value="0" class="seek_slider">
       <div class="total-duration">00:00</div>
     </div>
     <div class="slider_container">
       <i class="fa fa-volume-down"></i>
-      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <input type="range" min="1" max="100" value="99" class="volume_slider">
       <i class="fa fa-volume-up"></i>
     </div>
   </div>
 
   <!-- Load the main script for the player -->
-  <script src="main.js"></script>
-  <script src="tracks.js"></script>
+  <script src="index.bundle.js"></script>
 </body>
 </html>
