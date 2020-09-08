@@ -134,215 +134,214 @@ function seekUpdate() {
 }
 
 let track_list = [
-  // {
-  //   name: "Night Owl",
-  //   artist: "Broke For Free",
-  //   image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-  //   path: "tracks/Broke_For_Free_-_01_-_Night_Owl.mp3",
-  // },
-  {
-    name: "Cardigan",
-    artist: "Taylor Swift",
-    path: "tracks/Taylor Swift-Cardigan.mp3",
-  },
-  {
-    name: "Head & Heart",
-    artist: "Joel Corry x MNEK",
-    path: "tracks/Joel Corry x MNEK-Head & Heart.mp3",
-  },
-  {
-    name: "Take Care Of You",
-    artist: "Ella Henderson",
-    path: "tracks/Ella Henderson-Take Care Of You.mp3",
-  },
-  {
-    name: "Savage Love",
-    artist: "Jason Derulo",
-    path: "tracks/Jason Derulo-Savage Love.mp3",
-  },
-  {
-    name: "Holiday",
-    artist: "Little Mix",
-    path: "tracks/Little Mix-Holiday.mp3",
-  },
-  {
-    name: "Heaven On My Mind",
-    artist: "Becky Hill, Sigala",
-    path: "tracks/Becky Hill, Sigala-Heaven On My Mind.mp3",
-  },
-  {
-    name: "Me Because Of You",
-    artist: "HRVY",
-    path: "tracks/HRVY-Me Because Of You.mp3",
-  },
-  {
-    name: "Hallucinate",
-    artist: "Dua Lipa",
-    path: "tracks/Dua Lipa-Hallucinate.mp3",
-  },
-  {
-    name: "My Oasis",
-    artist: "Sam Smith",
-    path: "tracks/Sam Smith-My Oasis.mp3",
-  },
-  {
-    name: "Rain On Me",
-    artist: "Lady Gaga, Ariana Grande",
-    path: "tracks/Lady Gaga, Ariana Grande-Rain On Me.mp3",
-  },
-  {
-    name: "To Be Young",
-    artist: "Anne Marie",
-    path: "tracks/Anne Marie-To Be Young.mp3",
-  },
-  {
-    name: "Kings & Queens",
-    artist: "Ava Max",
-    path: "tracks/Ava Max-Kings & Queens.mp3"
-  },
-  {
-    name: "Solo",
-    artist: "Clean Bandit",
-    path: "tracks/Clean Bandit-Solo.mp3"
-  },
-  {
-    name: "Rockabye",
-    artist: "Clean Bandit",
-    path: "tracks/Clean Bandit-Rockabye.mp3"
-  },
-  {
-    name: "fxxk, i'm lonely",
-    artist: "Lauv",
-    path: "tracks/Lauv-fxxk, i'm lonely.mp3"
-  },
-  {
-    name: "FRIENDS",
-    artist: "Marshmello & Anne-Marie",
-    path: "tracks/Marshmello & Anne-Marie-FRIENDS.mp3"
-  },
-  {
-    name: "Rewrite The Stars",
-    artist: "Anne-Marie & James Arthur",
-    path: "tracks/Anne-Marie & James Arthur-Rewrite The Stars.mp3"
-  },
-  {
-    name: "BIRTHDAY",
-    artist: "Anne-Marie",
-    path: "tracks/Anne-Marie-BIRTHDAY.mp3"
-  },
-  {
-    name: "2002",
-    artist: "Anne-Marie",
-    path: "tracks/Anne-Marie-2002.mp3"
-  },
-  {
-    name: "Ciao Adios",
-    artist: "Anne-Marie",
-    path: "tracks/Anne-Marie-Ciao Adios.mp3"
-  },
-  {
-    name: "Girlfriend",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-Girlfriend.mp3"
-  },
-  {
-    name: "Attention",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-Attention.mp3"
-  },
-  {
-    name: "We Don't Talk Anymore",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-We Don't Talk Anymore.mp3"
-  },
-  {
-    name: "One Call Away",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-One Call Away.mp3"
-  },
-  {
-    name: "How Long",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-How Long.mp3"
-  },
-  {
-    name: "The Way I Am",
-    artist: "Charlie Puth",
-    path: "tracks/Charlie Puth-The Way I Am.mp3"
-  },
-  {
-    name: "Señorita",
-    artist: "Shawn Mendes, Camila Cabello",
-    path: "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
-  },
-  {
-    name: "South of the Border",
-    artist: "Ed Sheeran",
-    path: "tracks/Ed Sheeran-South of the Border.mp3"
-  },
-  {
-    name: "South of the Border",
-    artist: "Ed Sheeran",
-    path: "tracks/Ed Sheeran-South of the Border.mp3"
-  },
-  {
-    name: "Perfect",
-    artist: "Ed Sheeran",
-    path: "tracks/Ed Sheeran-Perfect.mp3"
-  },
-  {
-    name: "I Don't Care",
-    artist: "Ed Sheeran & Justin Bieber",
-    path: "tracks/Ed Sheeran & Justin Bieber-I Don't Care.mp3"
-  },
-  {
-    name: "Señorita",
-    artist: "Shawn Mendes, Camila Cabello",
-    path: "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
-  },
-  {
-    name: "Memories",
-    artist: "Maroon 5",
-    path: "tracks/Maroon 5-Memories.mp3"
-  },
-  {
-    name: "Don't Cry For Me",
-    artist: "Alok, Martin Jensen, Jason Derulo",
-    path: "tracks/Alok, Martin Jensen, Jason Derulo-Don't Cry For Me.mp3"
-  },
-  {
-    name: "Break Up Song",
-    artist: "Little Mix",
-    path: "tracks/Little Mix-Break Up Song.mp3"
-  },
-  {
-    name: "Funny",
-    artist: "Zedd & Jasmine Thompson",
-    path: "tracks/Zedd & Jasmine Thompson-Funny.mp3"
-  },
-  {
-    name: "Tick Tock",
-    artist: "Clean Bandit and Mabel",
-    path: "tracks/Clean Bandit and Mabel-Tick Tock.mp3"
-  },
-  {
-    name: "Nobody's Love",
-    artist: "Maroon 5",
-    path: "tracks/Maroon 5-Nobody's Love.mp3"
-  },
-  {
-    name: "Stitches",
-    artist: "Shawn Mendes & Hailee Steinfeld",
-    path: "tracks/Shawn Mendes & Hailee Steinfeld-Stitches.mp3"
-  },
-  {
-    name: "There's Nothing Holding Me Back",
-    artist: "Shawn Mendes",
-    path: "tracks/Shawn Mendes-There's Nothing Holding Me Back.mp3"
-  },
-  {
-    name: "Smile",
-    artist: "Katy Perry",
-    path: "tracks/Katy Perry-Smile.mp3"
-  }
+    {
+        "artist": "Alec Benjamin",
+        "name": "Let Me Down Slowly",
+        "path": "tracks/Alec Benjamin-Let Me Down Slowly.mp3"
+    },
+    {
+        "artist": "Alok, Martin Jensen, Jason Derulo",
+        "name": "Don't Cry For Me",
+        "path": "tracks/Alok, Martin Jensen, Jason Derulo-Don't Cry For Me.mp3"
+    },
+    {
+        "artist": "Anne Marie",
+        "name": "To Be Young",
+        "path": "tracks/Anne Marie-To Be Young.mp3"
+    },
+    {
+        "artist": "Anne-Marie & James Arthur",
+        "name": "Rewrite The Stars",
+        "path": "tracks/Anne-Marie & James Arthur-Rewrite The Stars.mp3"
+    },
+    {
+        "artist": "Anne-Marie",
+        "name": "2002",
+        "path": "tracks/Anne-Marie-2002.mp3"
+    },
+    {
+        "artist": "Anne-Marie",
+        "name": "BIRTHDAY",
+        "path": "tracks/Anne-Marie-BIRTHDAY.mp3"
+    },
+    {
+        "artist": "Anne-Marie",
+        "name": "Ciao Adios",
+        "path": "tracks/Anne-Marie-Ciao Adios.mp3"
+    },
+    {
+        "artist": "Ava Max",
+        "name": "Kings & Queens",
+        "path": "tracks/Ava Max-Kings & Queens.mp3"
+    },
+    {
+        "artist": "Becky Hill, Sigala",
+        "name": "Heaven On My Mind",
+        "path": "tracks/Becky Hill, Sigala-Heaven On My Mind.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "Attention",
+        "path": "tracks/Charlie Puth-Attention.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "Girlfriend",
+        "path": "tracks/Charlie Puth-Girlfriend.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "How Long",
+        "path": "tracks/Charlie Puth-How Long.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "One Call Away",
+        "path": "tracks/Charlie Puth-One Call Away.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "The Way I Am",
+        "path": "tracks/Charlie Puth-The Way I Am.mp3"
+    },
+    {
+        "artist": "Charlie Puth",
+        "name": "We Don't Talk Anymore",
+        "path": "tracks/Charlie Puth-We Don't Talk Anymore.mp3"
+    },
+    {
+        "artist": "Clean Bandit and Mabel",
+        "name": "Tick Tock",
+        "path": "tracks/Clean Bandit and Mabel-Tick Tock.mp3"
+    },
+    {
+        "artist": "Clean Bandit",
+        "name": "Rockabye",
+        "path": "tracks/Clean Bandit-Rockabye.mp3"
+    },
+    {
+        "artist": "Clean Bandit",
+        "name": "Solo",
+        "path": "tracks/Clean Bandit-Solo.mp3"
+    },
+    {
+        "artist": "Dua Lipa",
+        "name": "Hallucinate",
+        "path": "tracks/Dua Lipa-Hallucinate.mp3"
+    },
+    {
+        "artist": "Ed Sheeran & Justin Bieber",
+        "name": "I Don't Care",
+        "path": "tracks/Ed Sheeran & Justin Bieber-I Don't Care.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Perfect",
+        "path": "tracks/Ed Sheeran-Perfect.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "South of the Border",
+        "path": "tracks/Ed Sheeran-South of the Border.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "South of the Border",
+        "path": "tracks/Ed Sheeran-South of the Border.mp3"
+    },
+    {
+        "artist": "Ella Henderson",
+        "name": "Take Care Of You",
+        "path": "tracks/Ella Henderson-Take Care Of You.mp3"
+    },
+    {
+        "artist": "HRVY",
+        "name": "Me Because Of You",
+        "path": "tracks/HRVY-Me Because Of You.mp3"
+    },
+    {
+        "artist": "Jason Derulo",
+        "name": "Savage Love",
+        "path": "tracks/Jason Derulo-Savage Love.mp3"
+    },
+    {
+        "artist": "Joel Corry x MNEK",
+        "name": "Head & Heart",
+        "path": "tracks/Joel Corry x MNEK-Head & Heart.mp3"
+    },
+    {
+        "artist": "Katy Perry",
+        "name": "Smile",
+        "path": "tracks/Katy Perry-Smile.mp3"
+    },
+    {
+        "artist": "Lady Gaga, Ariana Grande",
+        "name": "Rain On Me",
+        "path": "tracks/Lady Gaga, Ariana Grande-Rain On Me.mp3"
+    },
+    {
+        "artist": "Lauv",
+        "name": "fxxk, i'm lonely",
+        "path": "tracks/Lauv-fxxk, i'm lonely.mp3"
+    },
+    {
+        "artist": "Little Mix",
+        "name": "Break Up Song",
+        "path": "tracks/Little Mix-Break Up Song.mp3"
+    },
+    {
+        "artist": "Little Mix",
+        "name": "Holiday",
+        "path": "tracks/Little Mix-Holiday.mp3"
+    },
+    {
+        "artist": "Maroon 5",
+        "name": "Memories",
+        "path": "tracks/Maroon 5-Memories.mp3"
+    },
+    {
+        "artist": "Maroon 5",
+        "name": "Nobody's Love",
+        "path": "tracks/Maroon 5-Nobody's Love.mp3"
+    },
+    {
+        "artist": "Marshmello & Anne-Marie",
+        "name": "FRIENDS",
+        "path": "tracks/Marshmello & Anne-Marie-FRIENDS.mp3"
+    },
+    {
+        "artist": "Sam Smith",
+        "name": "My Oasis",
+        "path": "tracks/Sam Smith-My Oasis.mp3"
+    },
+    {
+        "artist": "Shawn Mendes & Hailee Steinfeld",
+        "name": "Stitches",
+        "path": "tracks/Shawn Mendes & Hailee Steinfeld-Stitches.mp3"
+    },
+    {
+        "artist": "Shawn Mendes",
+        "name": "There's Nothing Holding Me Back",
+        "path": "tracks/Shawn Mendes-There's Nothing Holding Me Back.mp3"
+    },
+    {
+        "artist": "Shawn Mendes, Camila Cabello",
+        "name": "Señorita",
+        "path": "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
+    },
+    {
+        "artist": "Shawn Mendes, Camila Cabello",
+        "name": "Señorita",
+        "path": "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
+    },
+    {
+        "artist": "Taylor Swift",
+        "name": "Cardigan",
+        "path": "tracks/Taylor Swift-Cardigan.mp3"
+    },
+    {
+        "artist": "Zedd & Jasmine Thompson",
+        "name": "Funny",
+        "path": "tracks/Zedd & Jasmine Thompson-Funny.mp3"
+    }
 ];
