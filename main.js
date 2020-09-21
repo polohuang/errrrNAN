@@ -246,8 +246,33 @@ let track_list = [
     },
     {
         "artist": "Ed Sheeran",
-        "name": "South of the Border",
-        "path": "tracks/Ed Sheeran-South of the Border.mp3"
+        "name": "Shape of You",
+        "path": "tracks/Ed Sheeran-Shape of You.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Photograph",
+        "path": "tracks/Ed Sheeran-Photograph.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Galway Girl",
+        "path": "tracks/Ed Sheeran-Galway Girl.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "I See Fire",
+        "path": "tracks/Ed Sheeran-I See Fire.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Thinking Out Load",
+        "path": "tracks/Ed Sheeran-Thinking Out Load.mp3"
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Supermarket Flowers",
+        "path": "tracks/Ed Sheeran-Supermarket Flowers.mp3"
     },
     {
         "artist": "Ella Henderson",
