@@ -335,6 +335,11 @@ let track_list = [
         "path": "tracks/Marshmello & Anne-Marie-FRIENDS.mp3"
     },
     {
+        "artist": "Miley Cyrus",
+        "name": "Midnight Sky",
+        "path": "tracks/Miley Cyrus-Midnight Sky.mp3"
+    },
+    {
         "artist": "Sam Smith",
         "name": "My Oasis",
         "path": "tracks/Sam Smith-My Oasis.mp3"
@@ -358,6 +363,11 @@ let track_list = [
         "artist": "Shawn Mendes, Camila Cabello",
         "name": "Señorita",
         "path": "tracks/Shawn Mendes, Camila Cabello-Señorita.mp3"
+    },
+    {
+        "artist": "Skylar Grey",
+        "name": "Everything I need",
+        "path": "tracks/Skylar Grey-Everything I need.mp3"
     },
     {
         "artist": "Taylor Swift",
