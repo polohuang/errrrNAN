@@ -170,6 +170,11 @@ let track_list = [
         "path": "tracks/Anne-Marie-Ciao Adios.mp3"
     },
     {
+        "artist": "Ariana Grande",
+        "name": "Positions",
+        "path": "tracks/Ariana Grande-Positions.mp3"
+    },
+    {
         "artist": "Ava Max",
         "name": "Kings & Queens",
         "path": "tracks/Ava Max-Kings & Queens.mp3"
@@ -178,6 +183,11 @@ let track_list = [
         "artist": "Becky Hill, Sigala",
         "name": "Heaven On My Mind",
         "path": "tracks/Becky Hill, Sigala-Heaven On My Mind.mp3"
+    },
+    {
+        "artist": "BTS",
+        "name": "Dynamite",
+        "path": "tracks/BTS-Dynamite.mp3"
     },
     {
         "artist": "Charlie Puth",
@@ -318,6 +328,11 @@ let track_list = [
         "artist": "Little Mix",
         "name": "Holiday",
         "path": "tracks/Little Mix-Holiday.mp3"
+    },
+    {
+        "artist": "Little Mix",
+        "name": "Sweet Melody",
+        "path": "tracks/Little Mix-Sweet Melody.mp3"
     },
     {
         "artist": "Maroon 5",
