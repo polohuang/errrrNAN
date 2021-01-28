@@ -180,6 +180,11 @@ let track_list = [
         "path": "tracks/Ava Max-Kings & Queens.mp3"
     },
     {
+        "artist": "Ava Max",
+        "name": "My Head & My Heart",
+        "path": "tracks/Ava Max-My Head & My Heart.mp3"
+    },
+    {
         "artist": "Becky Hill, Sigala",
         "name": "Heaven On My Mind",
         "path": "tracks/Becky Hill, Sigala-Heaven On My Mind.mp3"
@@ -305,6 +310,11 @@ let track_list = [
         "path": "tracks/Joel Corry x MNEK-Head & Heart.mp3"
     },
     {
+        "artist": "Justin Bieber",
+        "name": "Anyone",
+        "path": "tracks/Justin Bieber-Anyone.mp3"
+    },
+    {
         "artist": "Katy Perry",
         "name": "Smile",
         "path": "tracks/Katy Perry-Smile.mp3"
@@ -353,6 +363,11 @@ let track_list = [
         "artist": "Miley Cyrus",
         "name": "Midnight Sky",
         "path": "tracks/Miley Cyrus-Midnight Sky.mp3"
+    },
+    {
+        "artist": "Olivia Rodrigo",
+        "name": "drivers license",
+        "path": "tracks/Olivia Rodrigo-drivers license.mp3"
     },
     {
         "artist": "Sam Smith",
