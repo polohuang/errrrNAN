@@ -175,6 +175,11 @@ let track_list = [
         "path": "tracks/Ariana Grande-Positions.mp3"
     },
     {
+        "artist": "Ariana Grande",
+        "name": "Test drive",
+        "path": "tracks/Ariana Grande-Test drive.mp3"
+    },
+    {
         "artist": "Ava Max",
         "name": "Kings & Queens",
         "path": "tracks/Ava Max-Kings & Queens.mp3"
@@ -305,6 +310,11 @@ let track_list = [
         "path": "tracks/Jason Derulo-Savage Love.mp3"
     },
     {
+        "artist": "JC Stewart",
+        "name": "Break My Heart",
+        "path": "tracks/JC Stewart-Break My Heart.mp3"
+    },
+    {
         "artist": "Joel Corry x MNEK",
         "name": "Head & Heart",
         "path": "tracks/Joel Corry x MNEK-Head & Heart.mp3"
@@ -403,6 +413,11 @@ let track_list = [
         "artist": "Taylor Swift",
         "name": "Cardigan",
         "path": "tracks/Taylor Swift-Cardigan.mp3"
+    },
+    {
+        "artist": "The Weeknd",
+        "name": "Save Your Tears",
+        "path": "tracks/The Weeknd-Save Your Tears.mp3"
     },
     {
         "artist": "Zedd & Jasmine Thompson",
