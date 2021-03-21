@@ -230,6 +230,11 @@ let track_list = [
         "path": "tracks/Charlie Puth-We Don't Talk Anymore.mp3"
     },
     {
+        "artist": "Cian Ducrot",
+        "name": "Not Usually Like This",
+        "path": "tracks/Cian Ducrot-Not Usually Like This.mp3"
+    },
+    {
         "artist": "Clean Bandit and Mabel",
         "name": "Tick Tock",
         "path": "tracks/Clean Bandit and Mabel-Tick Tock.mp3"
@@ -408,6 +413,11 @@ let track_list = [
         "artist": "Skylar Grey",
         "name": "Everything I need",
         "path": "tracks/Skylar Grey-Everything I need.mp3"
+    },
+    {
+        "artist": "Tate McRae",
+        "name": "Slower",
+        "path": "tracks/Tate McRae-Slower.mp3"
     },
     {
         "artist": "Taylor Swift",
